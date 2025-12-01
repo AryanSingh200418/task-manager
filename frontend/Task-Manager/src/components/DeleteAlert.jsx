@@ -1,3 +1,4 @@
+//  33
 import React from 'react'
 
 const DeleteAlert = ({ content, onDelete }) => {

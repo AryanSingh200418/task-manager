@@ -1,3 +1,4 @@
+// 26
 import React from 'react'
 
 const AvatarGroup = ({avatars, maxVisible = 3}) => {

@@ -1,3 +1,4 @@
+//14
 import React, { useContext, useEffect, useState } from "react";
 import { SIDE_MENU_DATA, SIDE_MENU_USER_DATA } from "../../utils/data";
 import { UserContext } from "../../context/userContext";
@@ -62,12 +63,15 @@ const SideMenu = ({ activeMenu }) => {
               : ""
           } py-3 px-6 mb-3 cursor-pointer`}
           onClick={() => handleClick(item.path)}
-        >
+          >
+
           <item.icon className="text-xl" />
           {item.label}
+
         </button>
       ))}
     </div>;
 };
 
 export default SideMenu;
+

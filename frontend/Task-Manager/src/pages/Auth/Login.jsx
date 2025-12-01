@@ -1,5 +1,5 @@
 //2
-//  userContext here  will be user login with email and password so other components can use the user info
+//  userContext here  will be user login with email and password so other components can use the user info 
 import React, { useContext, useState } from "react";
 import AuthLayout from "../../components/layouts/AuthLayout";
 import { Link, useNavigate } from "react-router-dom";

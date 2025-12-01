@@ -1,6 +1,8 @@
+//  19
 import React from 'react'
 
 const CustomTooltip = ({active, payload}) => {
+  // payload is the data point info when you hover on a chart element.
   if (active && payload && payload.length) {
     return (
       <div className="bg-white shadow-md rounded-lg p-2 border border-gray-300">
